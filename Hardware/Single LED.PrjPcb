@@ -216,73 +216,65 @@ Value=Deprecated VariantPN
 Name=VersionPCBA
 Value=A
 
-[GeneratedDocument1]
-DocumentPath=..\..\..\..\AppData\Local\Temp\Generated Documents\Design Rule Check - PCBName.html
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Generated Documents\Design Rule Check - Single LED.html
-DItemRevisionGUID=
-
 [Parameter1]
-Name=VersionPCB
-Value=0
+Name=ColourSilkscreen
+Value=White
 
 [Parameter2]
-Name=VerifiedBy
-Value=Not Been Verified
+Name=ColourSoldermask
+Value=Green
 
 [Parameter3]
-Name=ValidatedBy
-Value=Not Been Validated
+Name=Company
+Value=Your Company Name
 
 [Parameter4]
-Name=ReleasedByPCB
-Value=Not Released Yet
+Name=ECNPCB
+Value=N/A
 
 [Parameter5]
-Name=ReleaseDatePCB
-Value=yyyy-mm-dd
+Name=Finish
+Value=ENIG
 
 [Parameter6]
-Name=ProjectRevision
-Value=0
+Name=FlamabilityRating
+Value=94V-0
 
 [Parameter7]
-Name=ProcessType
-Value=Lead Free RoHS
+Name=NamePCB
+Value=NameOfPCB
 
 [Parameter8]
 Name=NumberOfLayers
 Value=2
 
 [Parameter9]
-Name=NamePCB
-Value=NameOfPCB
+Name=ProcessType
+Value=Lead Free RoHS
 
 [Parameter10]
-Name=FlamabilityRating
-Value=94V-0
+Name=ProjectRevision
+Value=0
 
 [Parameter11]
-Name=Finish
-Value=ENIG
+Name=ReleaseDatePCB
+Value=yyyy-mm-dd
 
 [Parameter12]
-Name=ECNPCB
-Value=N/A
+Name=ReleasedByPCB
+Value=Not Released Yet
 
 [Parameter13]
-Name=Company
-Value=Your Company Name
+Name=ValidatedBy
+Value=Not Been Validated
 
 [Parameter14]
-Name=ColourSoldermask
-Value=Green
+Name=VerifiedBy
+Value=Not Been Verified
 
 [Parameter15]
-Name=ColourSilkscreen
-Value=White
+Name=VersionPCB
+Value=0
 
 [Configuration1]
 Name=Sources
@@ -869,36 +861,6 @@ OutputName12=Web Review Data
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
-OutputType13=Ansoft Neutral
-OutputName13=Ansoft Neutral (AutoPCB)
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=HyperLynx
-OutputName14=HyperLynx (AutoPCB)
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=Orcad v7 Capture Design
-OutputName15=Orcad v7 Capture Design (AutoSCH)
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-OutputType16=P-CAD ASCII
-OutputName16=P-CAD ASCII (AutoPCB)
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
-OutputType17=P-CAD V16 Schematic Design
-OutputName17=P-CAD V16 Schematic Design (AutoSCH)
-OutputDocumentPath17=
-OutputVariantName17=
-OutputDefault17=0
-OutputType18=SiSoft
-OutputName18=SiSoft (AutoPCB)
-OutputDocumentPath18=
-OutputVariantName18=
-OutputDefault18=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
