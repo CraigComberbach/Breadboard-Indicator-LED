@@ -15,7 +15,7 @@ LifeCycleDefinitionGUID=
 RevisionNamingSchemeGUID=
 
 [OutputGroup1]
-Name=
+Name=PCB.OutJob
 Description=
 TargetOutputMedium=Pick And Place File
 VariantName=[No Variations]
@@ -59,7 +59,7 @@ OutputCategory3=Assembly
 OutputDocumentPath3=
 OutputVariantName3=
 OutputEnabled3=1
-OutputEnabled3_OutputMedium1=3
+OutputEnabled3_OutputMedium1=0
 OutputEnabled3_OutputMedium2=0
 OutputEnabled3_OutputMedium3=1
 OutputDefault3=0
@@ -71,7 +71,7 @@ OutputCategory4=Netlist
 OutputDocumentPath4=
 OutputVariantName4=
 OutputEnabled4=0
-OutputEnabled4_OutputMedium1=4
+OutputEnabled4_OutputMedium1=3
 OutputEnabled4_OutputMedium2=1
 OutputEnabled4_OutputMedium3=0
 OutputDefault4=0
@@ -103,7 +103,7 @@ Configuration6_Name1=OutputConfigurationParameter1
 Configuration6_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=5|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Imperial|ZeroesMode=SuppressTrailingZeroes|DocumentPath=C:\Users\Work\Desktop\Gradient\DHW-FC-110087\Board Design\DHW FC 110087.PcbDoc
 
 [PublishSettings]
-OutputFilePath1=C:\Users\Work\Dropbox\Craig Co\Project-Template\Hardware\Generated Documents\NameOfPCB Rev 0\Single Gerbers\
+OutputFilePath1=C:\Users\Work\Dropbox\Craig Co\Prototyping Aids\Indicator LED\Hardware\Generated Documents\Breadboard Indicator LED Rev 0\Single Gerbers\
 ReleaseManaged1=0
 OutputBasePath1=Generated Documents\
 OutputPathMedia1==NamePCB+' Rev '+VersionPCB+'\Single Gerbers'
@@ -129,7 +129,7 @@ OutputFileNameMulti2=='Panelized Gerbers - '+NamePCB+' Rev '+VersionPCB
 UseOutputNameForMulti2=0
 OutputFileNameSpecial2=
 OpenOutput2=0
-OutputFilePath3=C:\Users\Work\Dropbox\Craig Co\Project-Template\Hardware\Generated Documents\NameOfPCB Rev 0\
+OutputFilePath3=C:\Users\Work\Dropbox\Craig Co\Prototyping Aids\Indicator LED\Hardware\Generated Documents\Breadboard Indicator LED Rev 0\
 ReleaseManaged3=0
 OutputBasePath3=Generated Documents\
 OutputPathMedia3==NamePCB+' Rev '+VersionPCB
@@ -144,7 +144,7 @@ OutputFileNameSpecial3=
 OpenOutput3=0
 
 [GeneratedFilesSettings]
-RelativeOutputPath1=C:\Users\Work\Dropbox\Craig Co\Project-Template\Hardware\Generated Documents\NameOfPCB Rev 0\Single Gerbers\
+RelativeOutputPath1=C:\Users\Work\Dropbox\Craig Co\Prototyping Aids\Indicator LED\Hardware\Generated Documents\Breadboard Indicator LED Rev 0\Single Gerbers\
 OpenOutputs1=0
 AddToProject1=1
 TimestampFolder1=0
@@ -164,7 +164,7 @@ OpenGerberOutput2=0
 OpenNCDrillOutput2=0
 OpenIPCOutput2=1
 EnableReload2=0
-RelativeOutputPath3=C:\Users\Work\Dropbox\Craig Co\Project-Template\Hardware\Generated Documents\NameOfPCB Rev 0\
+RelativeOutputPath3=C:\Users\Work\Dropbox\Craig Co\Prototyping Aids\Indicator LED\Hardware\Generated Documents\Breadboard Indicator LED Rev 0\
 OpenOutputs3=0
 AddToProject3=1
 TimestampFolder3=0

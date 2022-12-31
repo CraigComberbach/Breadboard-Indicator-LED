@@ -43,7 +43,7 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
-CurrentVariant=MarketingName
+CurrentVariant=Green LED
 
 [Preferences]
 PrefsVaultGUID=
@@ -84,74 +84,6 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document3]
-DocumentPath=PCB Fabrication Drawings.PCBDwf
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=SAQNPBVK
-
-[Document4]
-DocumentPath=PCBA Assembly Drawings.PCBDwf
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=SAQNPBVJ
-
-[Document5]
-DocumentPath=Single LED.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=WKVSEGBT
-
-[Document6]
-DocumentPath=Single LED.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=0
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=UMTJBRLE
-
-[Document7]
 DocumentPath=Block Diagram.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -168,9 +100,77 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ITBPXWPD
 
+[Document4]
+DocumentPath=Single LED.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=WKVSEGBT
+
+[Document5]
+DocumentPath=Single LED.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=0
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=UMTJBRLE
+
+[Document6]
+DocumentPath=PCB Fabrication Drawings.PCBDwf
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=SAQNPBVK
+
+[Document7]
+DocumentPath=PCBA Assembly Drawings.PCBDwf
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=SAQNPBVJ
+
 [ProjectVariant1]
 UniqueID=AA1E50B5-30C6-4694-93AB-9C31FBB6B911
-Description=MarketingName
+Description=Green LED
 AllowFabrication=0
 ParameterCount=10
 VariationCount=0
@@ -190,7 +190,7 @@ Value=N/A
 
 [Parameter2_4]
 Name=NamePCBA
-Value=Name of PCBA
+Value=Breadboard Green LED Indicator
 
 [Parameter2_5]
 Name=ReleaseDate
@@ -198,7 +198,7 @@ Value=ReleaseDateDeprecated
 
 [Parameter2_6]
 Name=ReleaseDatePCBA
-Value=yyyy-mm-dd-PCBA
+Value=2023-01-01
 
 [Parameter2_7]
 Name=ReleasedBy
@@ -206,7 +206,7 @@ Value=Deprecated ReleasedBy
 
 [Parameter2_8]
 Name=ReleasedByPCBA
-Value=PCBA Not released yet
+Value=Craig Comberbach
 
 [Parameter2_9]
 Name=VariantPN
@@ -214,67 +214,167 @@ Value=Deprecated VariantPN
 
 [Parameter2_10]
 Name=VersionPCBA
-Value=A
+Value=0
+
+[GeneratedDocument1]
+DocumentPath=Generated Documents\Design Rule Check - Single LED.html
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Generated Documents\Breadboard Indicator LED Rev 0\Pick And Place Rev 0.csv
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Generated Documents\Breadboard Indicator LED Rev 0\Single Gerbers\Single Gerbers - Breadboard Indicator LED Rev 0.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Generated Documents\Breadboard Indicator LED Rev 0\Single Gerbers\Single Gerbers - Breadboard Indicator LED Rev 0.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Generated Documents\Breadboard Indicator LED Rev 0\Single Gerbers\Single Gerbers - Breadboard Indicator LED Rev 0.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Generated Documents\Breadboard Indicator LED Rev 0\Single Gerbers\Single Gerbers - Breadboard Indicator LED Rev 0.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Generated Documents\Breadboard Indicator LED Rev 0\Single Gerbers\Single Gerbers - Breadboard Indicator LED Rev 0.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Generated Documents\Breadboard Indicator LED Rev 0\Single Gerbers\Single Gerbers - Breadboard Indicator LED Rev 0.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Generated Documents\Breadboard Indicator LED Rev 0\Single Gerbers\Single Gerbers - Breadboard Indicator LED Rev 0.GD1
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Generated Documents\Breadboard Indicator LED Rev 0\Single Gerbers\Single Gerbers - Breadboard Indicator LED Rev 0.GG1
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Generated Documents\Breadboard Indicator LED Rev 0\Single Gerbers\Single Gerbers - Breadboard Indicator LED Rev 0.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Generated Documents\Breadboard Indicator LED Rev 0\Single Gerbers\Single Gerbers - Breadboard Indicator LED Rev 0.GM2
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Generated Documents\Breadboard Indicator LED Rev 0\Single Gerbers\Single Gerbers - Breadboard Indicator LED Rev 0.GM4
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Generated Documents\Breadboard Indicator LED Rev 0\Single Gerbers\Single Gerbers - Breadboard Indicator LED Rev 0.GM9
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Generated Documents\Breadboard Indicator LED Rev 0\Single Gerbers\Single Gerbers - Breadboard Indicator LED Rev 0.GM14
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Generated Documents\Breadboard Indicator LED Rev 0\Single Gerbers\Single Gerbers - Breadboard Indicator LED Rev 0.GM15
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Generated Documents\Breadboard Indicator LED Rev 0\Single Gerbers\Single Gerbers - Breadboard Indicator LED Rev 0.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Generated Documents\Breadboard Indicator LED Rev 0\Single Gerbers\Single Gerbers - Breadboard Indicator LED Rev 0.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Generated Documents\Breadboard Indicator LED Rev 0\Single Gerbers\Single Gerbers - Breadboard Indicator LED Rev 0.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Generated Documents\Breadboard Indicator LED Rev 0\Single Gerbers\Single Gerbers - Breadboard Indicator LED Rev 0.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Generated Documents\Breadboard Indicator LED Rev 0\Single Gerbers\Single Gerbers - Breadboard Indicator LED Rev 0.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=Generated Documents\Breadboard Indicator LED Rev 0\Single Gerbers\Single Gerbers - Breadboard Indicator LED Rev 0.NET
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=Generated Documents\Breadboard Indicator LED Rev 0\Single Gerbers\Single Gerbers - Breadboard Indicator LED Rev 0.REP
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=Generated Documents\Breadboard Indicator LED Rev 0\Single Gerbers\Single Gerbers - Breadboard Indicator LED Rev 0.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=Generated Documents\Breadboard Indicator LED Rev 0\Single Gerbers\Single Gerbers - Breadboard Indicator LED Rev 0.TXT
+DItemRevisionGUID=
 
 [Parameter1]
-Name=ColourSilkscreen
-Value=White
+Name=VersionPCB
+Value=0
 
 [Parameter2]
-Name=ColourSoldermask
-Value=Green
+Name=VerifiedBy
+Value=Not Been Verified
 
 [Parameter3]
-Name=Company
-Value=Your Company Name
+Name=ValidatedBy
+Value=Not Been Validated
 
 [Parameter4]
-Name=ECNPCB
-Value=N/A
+Name=ReleasedByPCB
+Value=Craig Comberbach
 
 [Parameter5]
-Name=Finish
-Value=ENIG
+Name=ReleaseDatePCB
+Value=2023-01-01
 
 [Parameter6]
-Name=FlamabilityRating
-Value=94V-0
+Name=ProjectRevision
+Value=0
 
 [Parameter7]
-Name=NamePCB
-Value=NameOfPCB
+Name=ProcessType
+Value=Lead Free RoHS
 
 [Parameter8]
 Name=NumberOfLayers
 Value=2
 
 [Parameter9]
-Name=ProcessType
-Value=Lead Free RoHS
+Name=NamePCB
+Value=Breadboard Indicator LED
 
 [Parameter10]
-Name=ProjectRevision
-Value=0
+Name=FlamabilityRating
+Value=94V-0
 
 [Parameter11]
-Name=ReleaseDatePCB
-Value=yyyy-mm-dd
+Name=Finish
+Value=ENIG
 
 [Parameter12]
-Name=ReleasedByPCB
-Value=Not Released Yet
+Name=ECNPCB
+Value=N/A
 
 [Parameter13]
-Name=ValidatedBy
-Value=Not Been Validated
+Name=Company
+Value=Your Company Name
 
 [Parameter14]
-Name=VerifiedBy
-Value=Not Been Verified
+Name=ColourSoldermask
+Value=Purple
 
 [Parameter15]
-Name=VersionPCB
-Value=0
+Name=ColourSilkscreen
+Value=White
 
 [Configuration1]
 Name=Sources
@@ -1234,10 +1334,16 @@ NetClassManualEnabled=1
 NetClassSeparateForBusSections=0
 
 [LibraryUpdateOptions]
-SelectedOnly=0
+SelectedOnly=1
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
+ComponentLibIdentifierKind0=Library Name And Type
+ComponentLibraryIdentifier0=Integrated Library.IntLib
+ComponentDesignItemID0=Resistor 130R 0603 1%
+ComponentSymbolReference0=Resistor 130R 0603 1%
+ComponentUpdate0=1
+ComponentIsDeviceSheet0=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1251,6 +1357,43 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
+ParameterName0=Comment
+ParameterUpdate0=1
+ParameterName1=Component Kind
+ParameterUpdate1=1
+ParameterName2=ComponentLink1Description
+ParameterUpdate2=1
+ParameterName3=ComponentLink1URL
+ParameterUpdate3=1
+ParameterName4=Description
+ParameterUpdate4=1
+ParameterName5=Library Reference
+ParameterUpdate5=1
+ParameterName6=Manufacturer
+ParameterUpdate6=1
+ParameterName7=Manufacturer Part Number
+ParameterUpdate7=1
+ParameterName8=Max Operating Temperature
+ParameterUpdate8=1
+ParameterName9=Min Operating Temperature
+ParameterUpdate9=1
+ParameterName10=Package
+ParameterUpdate10=1
+ParameterName11=Power Rating
+ParameterUpdate11=1
+ParameterName12=Process Type
+ParameterUpdate12=1
+ParameterName13=Resistance
+ParameterUpdate13=1
+ParameterName14=Tolerance
+ParameterUpdate14=1
+ParameterName15=Voltage Rating
+ParameterUpdate15=1
+ModelTypeGroup0=PCBLIB
+ModelTypeUpdate0=1
+ModelType0=PCBLIB
+ModelName0=0603 Resistor
+ModelUpdate0=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
